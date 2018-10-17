@@ -1,0 +1,19 @@
+{
+  "name": "bulma-pro",
+  "version": "0.1.7",
+  "homepage": "https://mubaidr.github.io/bulma-pro",
+  "authors": ["mubaidr <mubaidr@gmail.com>"],
+  "description": "A professional theme for Bulma!",
+  "main": "bulma.sass",
+  "keywords": ["css", "bulma", "theme", "pro"],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "docs",
+    "images"
+  ]
+}
