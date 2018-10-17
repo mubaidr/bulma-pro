@@ -54,7 +54,8 @@
     "build-sass": "node-sass --output-style expanded bulma.sass css/bulma.css --importer node_modules/node-sass-import",
     "dev": "cd src/docs && npm run dev && cd..",
     "lint": "eslint --ext .js,.vue --fix src/",
-    "test": "sh test/sass-compile-tester.sh"
+    "test": "sh test/sass-compile-tester.sh",
+    "release": "npm run build-docs && npm run build && git add . && git commit -a -m \"initial styles\" && git push && npm publish"
   },
   "style": "css/bulma.css",
   "unpkg": "css/bulma.min.css",
