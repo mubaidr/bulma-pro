@@ -10300,8 +10300,8 @@ label.panel-block:hover {
   display: inline-block;
   position: relative;
   z-index: 1;
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.75em;
+  height: 1.75em;
   top: 0.25em;
   padding: 0;
   margin: 0;
@@ -10317,7 +10317,7 @@ label.panel-block:hover {
   top: 0;
   left: 0;
   background-color: white;
-  border: 2px solid #dbdbdb;
+  border: 1px solid #dbdbdb;
   border-radius: 0;
   transition: all 0.25s ease-out;
 }
@@ -10332,7 +10332,7 @@ label.panel-block:hover {
   height: 66%;
   width: 33%;
   border: solid #fff;
-  border-width: 0 2px 2px 0;
+  border-width: 0 1px 1px 0;
   -webkit-transform: rotate(30deg);
   transform: rotate(30deg);
 }
@@ -10411,8 +10411,8 @@ label.panel-block:hover {
   display: inline-block;
   position: relative;
   z-index: 1;
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.75em;
+  height: 1.75em;
   top: 0.25em;
   padding: 0;
   margin: 0;
@@ -10429,7 +10429,7 @@ label.panel-block:hover {
   left: 0;
   border-radius: 50%;
   background-color: white;
-  border: 2px solid #dbdbdb;
+  border: 1px solid #dbdbdb;
   transition: all 0.25s ease-out;
 }
 
@@ -10750,7 +10750,7 @@ label.panel-block:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 
-input,
+input:not([type='checkbox']):not([type='radio']),
 textarea,
 select,
 button,
@@ -10760,11 +10760,12 @@ button,
 .pagination-link,
 .pagination-previous,
 .pagination-next {
-  height: 3em;
+  height: 3em !important;
   transition: all 600ms cubic-bezier(0.16, 1, 0.29, 0.99);
 }
 
 .file-name {
+  padding-top: 0.75em;
   border-left: 1px !important;
 }
 
@@ -10943,6 +10944,15 @@ hr {
 
 .label {
   font-weight: 500;
+}
+
+.control.has-icons-left .icon, .control.has-icons-right .icon {
+  height: 3em;
+}
+
+.navbar-item,
+.navbar-link {
+  padding: 1em;
 }
 
 /*# sourceMappingURL=bulma.css.map */
