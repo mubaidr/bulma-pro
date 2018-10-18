@@ -1566,7 +1566,7 @@ a.box:active {
 }
 
 .button:focus, .button.is-focused {
-  border-color: #242424;
+  border-color: #0a0a0a;
   color: #474747;
 }
 
@@ -2941,7 +2941,7 @@ a.box:active {
 .textarea.is-focused,
 .textarea:active,
 .textarea.is-active {
-  border-color: rgba(55, 122, 195, 0.95);
+  border-color: #0a0a0a;
   box-shadow: 0 rgba(55, 122, 195, 0.25);
 }
 
@@ -3253,7 +3253,7 @@ a.box:active {
 }
 
 .select select:focus, .select select.is-focused, .select select:active, .select select.is-active {
-  border-color: rgba(55, 122, 195, 0.95);
+  border-color: #0a0a0a;
   box-shadow: 0 rgba(55, 122, 195, 0.25);
 }
 
@@ -10702,6 +10702,10 @@ label.panel-block:hover {
           transform: scale(0.96);
 }
 
+.message {
+  background-color: #fff !important;
+}
+
 .button.is-white:hover {
   background-color: white;
 }
@@ -10759,9 +10763,24 @@ button,
 .file-name,
 .pagination-link,
 .pagination-previous,
-.pagination-next {
+.pagination-next,
+.select {
   height: 3em !important;
   transition: all 600ms cubic-bezier(0.16, 1, 0.29, 0.99);
+}
+
+.pagination-link,
+.pagination-previous,
+.pagination-next {
+  padding: 1em;
+}
+
+.select:not(.is-multiple):not(.is-loading)::after {
+  border-color: #242424 !important;
+}
+
+.select:not(.is-multiple):not(.is-loading):hover::after {
+  border-color: #0a0a0a !important;
 }
 
 .file-name {
