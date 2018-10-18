@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar is-dark is-fixed-top">
+    <nav class="navbar is-primary is-fixed-top">
       <div class="navbar-brand">
         <router-link
           to="/"
@@ -89,7 +89,7 @@
     </nav>
     <section
       :class="{'is-medium': this.$route.path === '/'}"
-      class="hero is-dark">
+      class="hero is-primary">
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
         <div class="container has-text-centered">

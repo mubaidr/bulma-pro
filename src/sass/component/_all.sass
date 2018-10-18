@@ -30,6 +30,9 @@
   &:active
     transform: scale(0.96)
 
+.message
+  background-color: #fff!important
+
 .button
   @each $name, $pair in $colors
     $color: nth($pair, 1)
@@ -52,10 +55,22 @@ button,
 .file-name,
 .pagination-link,
 .pagination-previous,
-.pagination-next
+.pagination-next,
+.select
   height: 3em!important
   // border-width: 2px!important
   transition: all 600ms cubic-bezier(.16,1,.29,.99)
+
+.pagination-link,
+.pagination-previous,
+.pagination-next
+  padding: 1em
+
+.select:not(.is-multiple):not(.is-loading)::after
+  border-color: $dark!important
+
+.select:not(.is-multiple):not(.is-loading):hover::after
+  border-color: $primary!important
 
 .file-name
   padding-top: 0.75em
