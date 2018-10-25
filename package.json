@@ -8,7 +8,7 @@
   },
   "description": "A professional theme for Bulma!",
   "devDependencies": {
-    "autoprefixer": "^9.2.1",
+    "autoprefixer": "^9.3.1",
     "clean-css-cli": "^4.2.1",
     "eslint": "^5.7.0",
     "eslint-config-airbnb": "^17.1.0",
@@ -21,7 +21,7 @@
     "eslint-plugin-vue": "^4.7.1",
     "node-sass": "^4.9.4",
     "node-sass-import": "^2.0.1",
-    "postcss-cli": "^6.0.0",
+    "postcss-cli": "^6.0.1",
     "rimraf": "^2.6.2"
   },
   "files": [
