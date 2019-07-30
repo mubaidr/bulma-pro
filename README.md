@@ -1,6 +1,6 @@
 <p align="center"><img src="https://raw.githubusercontent.com/jbeguna04/bulma-pro/master/logodesigns/verticalblue.png"></p>
 
-Logo Design by Jibbie Eguna(jbeguna04)
+
 # Bulma-Pro:
 
 > A professional theme for [Bulma](http://bulma.io)
