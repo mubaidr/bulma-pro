@@ -45,7 +45,7 @@
   a:not(.button)
     border-bottom: 1px solid rgba(0,0,0,0.25)
 
-// Update border-width
+// add transition
 input:not([type='checkbox'], [type='radio']),
 textarea,
 select,
@@ -57,8 +57,6 @@ button,
 .pagination-previous,
 .pagination-next,
 .select
-  height: 3em!important
-  // border-width: 2px!important
   transition: all 600ms cubic-bezier(.16,1,.29,.99)
 
 .pagination-link,
@@ -73,7 +71,6 @@ button,
   border-color: $primary!important
 
 .file-name
-  padding-top: 0.75em
   border-left: 1px!important
 
 .file-cta,
@@ -117,6 +114,7 @@ button,
 
 // Update progress bar
 .progress
+  border-radius: 0
   height: 4px
   &.is-small
     height: 2px
@@ -124,26 +122,6 @@ button,
     height: 6px
   &.is-large
     height: 8px
-
-// indeterminate progress
-progress:indeterminate
-  position: relative
-  &:before
-    content: ''
-    position: absolute
-    left: 0
-    top: 0
-    width: 25%
-    height: 100%
-    background-color: $primary
-    animation: progress-bar 5s infinite
-    animation-timing-function: linear
-    // Colors
-  @each $name, $pair in $colors
-    $color: nth($pair, 1)
-    &.is-#{$name}
-      &:before
-        background-color: $color
 
 // Panel
 .panel
@@ -191,13 +169,7 @@ img
 
 // hr
 hr
-  background-color: $white-ter
+  background-color: rgba(0,0,0,0.075)
 
 .label
   font-weight: 500
-
-.control.has-icons-left .icon, .control.has-icons-right .icon
-  height: 3em
-
-.navbar-item, .navbar-link
-  padding: 1em
