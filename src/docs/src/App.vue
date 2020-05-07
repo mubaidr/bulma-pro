@@ -1,15 +1,16 @@
 <template>
   <div id="app">
-    <header-view/>
+    <header-view />
     <div class="content-custom">
       <transition
         name="slide-up"
         appear="appear"
-        mode="out-in">
-        <router-view/>
+        mode="out-in"
+      >
+        <router-view />
       </transition>
     </div>
-    <footer-view/>
+    <footer-view />
   </div>
 </template>
 

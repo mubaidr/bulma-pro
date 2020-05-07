@@ -1,10 +1,14 @@
 <template>
   <div class="container">
     <section class="section">
-      <h1 class="title">Elements</h1>
+      <h1 class="title">
+        Elements
+      </h1>
       <hr>
 
-      <h2 class="subtitle is-3">Box</h2>
+      <h2 class="subtitle is-3">
+        Box
+      </h2>
       <hr>
       <div class="box">
         <article class="media">
@@ -12,7 +16,8 @@
             <figure class="image is-64x64">
               <img 
                 src="https://bulma.io/images/placeholders/128x128.png" 
-                alt="Image">
+                alt="Image"
+              >
             </figure>
           </div>
           <div class="media-content">
@@ -30,7 +35,9 @@
 
       <br>
 
-      <h2 class="subtitle is-3">Buttons</h2>
+      <h2 class="subtitle is-3">
+        Buttons
+      </h2>
       <hr>
       <div>
         <div class="block">
@@ -166,44 +173,62 @@
 
       <br><br>
 
-      <h2 class="subtitle is-3">Progress bars</h2>
+      <h2 class="subtitle is-3">
+        Progress bars
+      </h2>
       <hr>
       <div id="progress">
-        <progress class="progress is-primary">0%</progress>
+        <progress class="progress is-primary">
+          0%
+        </progress>
         <progress 
           class="progress" 
           max="100" 
-          value="40"> 40%
+          value="40"
+        >
+          40%
         </progress>
         <progress 
           class="progress is-primary" 
           max="100" 
-          value="50"> 50%
+          value="50"
+        >
+          50%
         </progress>
         <progress 
           class="progress is-info" 
           max="100" 
-          value="60"> 60%
+          value="60"
+        >
+          60%
         </progress>
         <progress 
           class="progress is-success" 
           max="100" 
-          value="70"> 70%
+          value="70"
+        >
+          70%
         </progress>
         <progress 
           class="progress is-warning" 
           max="100" 
-          value="80"> 80%
+          value="80"
+        >
+          80%
         </progress>
         <progress 
           class="progress is-danger" 
           max="100" 
-          value="90"> 90%
+          value="90"
+        >
+          90%
         </progress>
       </div>
       <br><br>
 
-      <h2 class="subtitle is-3">Image</h2>
+      <h2 class="subtitle is-3">
+        Image
+      </h2>
       <hr>
       <figure class="image is-128x128">
         <img src="https://bulma.io/images/placeholders/128x128.png">
@@ -211,7 +236,9 @@
 
       <br><br>
 
-      <h2 class="subtitle is-3">Notifications</h2>
+      <h2 class="subtitle is-3">
+        Notifications
+      </h2>
       <hr>
       <div class="columns notifications">
         <div class="column">
@@ -262,7 +289,9 @@
 
       <br>
 
-      <h2 class="subtitle is-3">Tags</h2>
+      <h2 class="subtitle is-3">
+        Tags
+      </h2>
       <hr>
       <div class="tags">
         <span class="tag">Default</span>
@@ -308,7 +337,9 @@
 
       <br>
 
-      <h2 class="subtitle is-3">Tables</h2>
+      <h2 class="subtitle is-3">
+        Tables
+      </h2>
       <hr>
       <table class="table is-narrow is-fullwidth">
         <tr>
@@ -350,21 +381,47 @@
 
       <br>
 
-      <h2 class="subtitle is-3">Titles</h2>
+      <h2 class="subtitle is-3">
+        Titles
+      </h2>
       <hr>
-      <h1 class="title is-1">Title 1</h1>
-      <h2 class="title is-2">Title 2</h2>
-      <h3 class="title is-3">Title 3</h3>
-      <h4 class="title is-4">Title 4</h4>
-      <h5 class="title is-5">Title 5</h5>
-      <h6 class="title is-6">Title 6</h6>
+      <h1 class="title is-1">
+        Title 1
+      </h1>
+      <h2 class="title is-2">
+        Title 2
+      </h2>
+      <h3 class="title is-3">
+        Title 3
+      </h3>
+      <h4 class="title is-4">
+        Title 4
+      </h4>
+      <h5 class="title is-5">
+        Title 5
+      </h5>
+      <h6 class="title is-6">
+        Title 6
+      </h6>
       <br>
-      <h1 class="subtitle is-1">Subtitle 1</h1>
-      <h2 class="subtitle is-2">Subtitle 2</h2>
-      <h3 class="subtitle is-3">Subtitle 3</h3>
-      <h4 class="subtitle is-4">Subtitle 4</h4>
-      <h5 class="subtitle is-5">Subtitle 5</h5>
-      <h6 class="subtitle is-6">Subtitle 6</h6>
+      <h1 class="subtitle is-1">
+        Subtitle 1
+      </h1>
+      <h2 class="subtitle is-2">
+        Subtitle 2
+      </h2>
+      <h3 class="subtitle is-3">
+        Subtitle 3
+      </h3>
+      <h4 class="subtitle is-4">
+        Subtitle 4
+      </h4>
+      <h5 class="subtitle is-5">
+        Subtitle 5
+      </h5>
+      <h6 class="subtitle is-6">
+        Subtitle 6
+      </h6>
     </section>
   </div>
 </template>

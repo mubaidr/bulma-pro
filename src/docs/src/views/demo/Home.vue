@@ -2,7 +2,9 @@
   <div>
     <section class="section">
       <div class="container">
-        <h1 class="title">Getting started</h1>
+        <h1 class="title">
+          Getting started
+        </h1>
 
         <hr>
 
@@ -61,7 +63,9 @@ import 'bulma-pro/bulma.sass'</code>
         </div>
 
         <div class="content">
-          <h2 class="subtitle is-3">Customize</h2>
+          <h2 class="subtitle is-3">
+            Customize
+          </h2>
           <p>Simply set your own Sass variables before importing bulma-pro.</p>
           <p>
             <pre>
@@ -85,9 +89,13 @@ $family-sans-serif: "Calibri", "Arial"
         </div>
 
         <div class="content">
-          <h2 class="subtitle is-3">Documentation</h2>
-          <p>You can follow
-          <a href="https://bulma.io/documentation/">official bulma documentaion</a> for all components.</p>
+          <h2 class="subtitle is-3">
+            Documentation
+          </h2>
+          <p>
+            You can follow
+            <a href="https://bulma.io/documentation/">official bulma documentaion</a> for all components.
+          </p>
         </div>
       </div>
     </section>

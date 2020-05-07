@@ -1,7 +1,8 @@
 <template>
   <div class="container">
     <section class="section">
-      <h1 class="title"> Form Inputs
+      <h1 class="title">
+        Form Inputs
       </h1>
       <hr>
       <div class="column is-8 is-offset-2">
@@ -12,7 +13,8 @@
               <input 
                 class="input" 
                 type="text" 
-                placeholder="Text input">
+                placeholder="Text input"
+              >
             </div>
           </div>
 
@@ -22,7 +24,8 @@
               <input 
                 class="input" 
                 type="text" 
-                placeholder="Text input">
+                placeholder="Text input"
+              >
             </div>
           </div>
 
@@ -32,7 +35,8 @@
               <input 
                 class="input" 
                 type="text" 
-                placeholder="Text input">
+                placeholder="Text input"
+              >
               <span class="icon is-small is-left">
                 <i class="fas fa-user" />
               </span>
@@ -45,7 +49,8 @@
               <input 
                 class="input" 
                 type="email" 
-                placeholder="Email input">
+                placeholder="Email input"
+              >
               <span class="icon is-small is-left">
                 <i class="fas fa-envelope" />
               </span>
@@ -69,7 +74,8 @@
             <div class="control">
               <textarea 
                 class="textarea" 
-                placeholder="Textarea" />
+                placeholder="Textarea"
+              />
             </div>
           </div>
 
@@ -78,7 +84,8 @@
               <label class="checkbox is-primary">
                 <input 
                   type="checkbox" 
-                  checked> I agree to the
+                  checked
+                > I agree to the
                 <a href="#">terms and conditions</a>
               </label>
             </div>
@@ -89,13 +96,15 @@
               <label class="radio">
                 <input 
                   type="radio" 
-                  name="question"> Yes
+                  name="question"
+                > Yes
               </label>
               <label class="radio">
                 <input 
                   type="radio" 
                   name="question" 
-                  checked> No
+                  checked
+                > No
               </label>
             </div>
           </div>
@@ -134,7 +143,9 @@
             <p class="control">
               <button 
                 class="button" 
-                type="submit">Choose
+                type="submit"
+              >
+                Choose
               </button>
             </p>
           </div>
@@ -144,7 +155,8 @@
               <input 
                 class="file-input" 
                 type="file" 
-                name="resume">
+                name="resume"
+              >
               <span class="file-cta">
                 <span class="file-icon">
                   <i class="fas fa-upload" />
@@ -163,13 +175,16 @@
 
           <div class="field is-grouped">
             <div class="control">
-              <button class="button is-primary">Submit</button>
+              <button class="button is-primary">
+                Submit
+              </button>
             </div>
             <div class="control">
-              <button class="button">Cancel</button>
+              <button class="button">
+                Cancel
+              </button>
             </div>
           </div>
-
         </div>
       </div>
     </section>

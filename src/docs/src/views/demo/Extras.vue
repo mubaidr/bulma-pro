@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <section class="section">
-      <h1 class="title">Looking for extensions or addons for bulma? </h1>
+      <h1 class="title">
+        Looking for extensions or addons for bulma?
+      </h1>
       <p>Checkout following projects: </p>
       <br>
       <div class="column is-6 is-offset-3">

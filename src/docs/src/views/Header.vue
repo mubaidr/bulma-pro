@@ -4,58 +4,69 @@
       <div class="navbar-brand">
         <router-link
           to="/"
-          class="navbar-item"><img
+          class="navbar-item"
+        >
+          <img
             src="~../assets/logotype12.png"
-            alt="bulma-pro"></router-link>
+            alt="bulma-pro"
+          >
+        </router-link>
         <div
           :class="{'is-active': isNavigationBarOpen}"
           class="navbar-burger burger"
           data-target="navbarExampleTransparentExample"
-          @click="toggleNavBar">
-          <span/>
-          <span/>
-          <span/>
+          @click="toggleNavBar"
+        >
+          <span />
+          <span />
+          <span />
         </div>
       </div>
 
       <div
         id="navbarExampleTransparentExample"
         :class="{'is-active': isNavigationBarOpen}"
-        class="navbar-menu">
+        class="navbar-menu"
+      >
         <div class="navbar-start">
           <router-link
             to="/"
             title="Getting Started"
             class="navbar-item"
-            exact-active-class="is-active">
+            exact-active-class="is-active"
+          >
             <span>Getting Started</span>
           </router-link>
           <router-link
             to="/form"
             title="Form Inputs"
             class="navbar-item"
-            active-class="is-active">
+            active-class="is-active"
+          >
             <span>Form Inputs</span>
           </router-link>
           <router-link
             to="/elements"
             title="Elements"
             class="navbar-item"
-            active-class="is-active">
+            active-class="is-active"
+          >
             <span>Elements</span>
           </router-link>
           <router-link
             to="/components"
             title="Components"
             class="navbar-item"
-            active-class="is-active">
+            active-class="is-active"
+          >
             <span>Components</span>
           </router-link>
           <router-link
             to="/extras"
             title="Extras"
             class="navbar-item"
-            active-class="is-active">
+            active-class="is-active"
+          >
             <span>More</span>
           </router-link>
         </div>
@@ -64,11 +75,13 @@
             href="https://github.com/mubaidr/bulma-pro"
             class="navbar-item"
             title="Github Repository"
-            target="_blank">
+            target="_blank"
+          >
             <span class="icon">
               <i
                 class="fas fa-star"
-                aria-hidden="true" />
+                aria-hidden="true"
+              />
             </span>
             <span>Github</span>
           </a>
@@ -76,11 +89,13 @@
             href="https://raw.githubusercontent.com/mubaidr/bulma-pro/master/css/bulma.min.css"
             class="navbar-item"
             title="Download"
-            target="_blank">
+            target="_blank"
+          >
             <span class="icon">
               <i
                 class="fas fa-download"
-                aria-hidden="true" />
+                aria-hidden="true"
+              />
             </span>
             <span>Download</span>
           </a>
@@ -89,7 +104,8 @@
     </nav>
     <section
       :class="{'is-medium': this.$route.path === '/'}"
-      class="hero is-primary">
+      class="hero is-primary"
+    >
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
         <div class="container has-text-centered">
@@ -106,11 +122,12 @@
             <a href="https://patreon.com/mubaidr">
               <img
                 src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png"
-                style="height: 36px; width: auto;" >
+                style="height: 36px; width: auto;"
+              >
             </a>
           </p>
           <br>
-          <p/>
+          <p />
         </div>
       </div>
     </section>
