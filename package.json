@@ -9,7 +9,7 @@
   },
   "description": "A professional theme for Bulma!",
   "devDependencies": {
-    "@types/autoprefixer": "^9.7.2",
+    "@types/autoprefixer": "^10.2.0",
     "@types/eslint": "^6.8.1",
     "@types/rimraf": "^3.0.0",
     "@types/sass": "^1.16.0",
